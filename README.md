@@ -1,6 +1,6 @@
 # ASM Caesar Cipher Cryptography
 
-This program written in x86 Assembly encrypts and decrypts a message using the Caesar Cipher cryptography.
+This program written in x86 Assembly, encrypts and decrypts a message using Caesar Cipher cryptography.
 
 ## Compilation
 
@@ -10,7 +10,7 @@ Install NASM with:
 sudo apt-get install -y nasm
 ```
 
-With NASM and MINGW confirmed to be installed, proceed with compilation fot your system architecture:
+With NASM and MINGW confirmed to be installed, proceed with compilation for your system architecture:
     
 ```bash
 nasm -f win32 main.asm -o main
@@ -18,4 +18,4 @@ gcc main.obj
 ```
 
 ## Acknowledgments
-Although, I learnt and use Assembly for fun, leave this repository a star.
+if this repository was useful to you, please leave it a star.
